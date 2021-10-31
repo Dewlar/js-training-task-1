@@ -1,23 +1,23 @@
 {
-  "name": "training-layout-3",
+  "name": "tabs",
   "version": "1.0.0",
-  "description": "my first project with gulp",
-  "main": "index.html",
+  "description": "js tabs creation training",
+  "main": "index.thml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dewlar/training-layout-3.git"
+    "url": "git+https://github.com/Dewlar/js-training-task-1.git"
   },
   "author": "Andrei",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dewlar/training-layout-3/issues"
+    "url": "https://github.com/Dewlar/js-training-task-1/issues"
   },
-  "homepage": "https://github.com/Dewlar/training-layout-3#readme",
+  "homepage": "https://github.com/Dewlar/js-training-task-1#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.5",
+    "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -25,6 +25,6 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.38.0"
+    "sass": "^1.43.4"
   }
 }

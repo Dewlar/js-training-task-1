@@ -2,3 +2,61 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .box {
+    background-color: lavender;
+    border: 1px black solid;
+    margin: 5px;
+    padding: 20px;
+    height: 200px;
+    width: 50%;
+    min-width: 500px;
+  }
+
+  .form {
+    .menu-button-list {
+      display: flex;
+      list-style: none;
+      height: 40px;
+      align-items: center;
+      border-bottom: 1px rgb(128, 73, 73) solid;
+
+      .menu-button {
+        display: flex;
+        flex: 1 1 80px;
+        margin: 0 1px;
+        border: 1px black solid;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: bisque;
+        height: 25px;
+        cursor: pointer;
+
+        .tab-name{
+          color: cadetblue;
+        }
+      }
+    }
+
+    .tabs-list {
+      list-style: none;
+      margin-top: 5px;
+
+      .tab-content {
+        display: none;
+        width: 100%;
+        height: 150px;
+        resize: none;
+      }
+
+      .active {
+        display: block;
+      }
+    }
+  }
+}
